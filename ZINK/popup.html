@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <title>Çeviri Geçmişi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- KOYU HEADER: LOGO + BAŞLIK solda, AKSİYONLAR sağda -->
+  <div style="background:#0b0f1a;border-radius:12px;padding:8px 10px;margin:0 0 8px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <img src="icon.png" alt="ZINK Logo"
+     style="width:36px;height:36px;border-radius:8px;
+            box-shadow:0 0 0.35rem rgba(0,0,0,.3), 0 0 8px rgba(39,123,255,.12);">
+
+        <h2 style="margin:0;color:#c7d2fe;font-weight:600;font-size:16px;">Çeviriler</h2>
+      </div>
+      <div id="actions">
+        <label class="switch" title="Tema">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+        <button id="download-txt" class="icon-btn" title="Kelimeleri .txt indir">⬇︎</button>
+        <button id="clear-all" class="icon-btn danger" title="Tüm geçmişi temizle">×</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEKME ÇUBUĞU (ayrı satır) -->
+  <div id="topbar" style="margin-top:4px;">
+    <div id="tabs">
+      <button id="tab-words" class="active">Kelimeler</button>
+      <button id="tab-favs">Favoriler</button>
+    </div>
+  </div>
+
+  <ul id="list" class="list"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

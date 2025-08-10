@@ -1,0 +1,167 @@
+/* ================================
+   GPT Translator — Clean Pro UI
+   (Light/Dark + Toggle)
+   ================================ */
+
+/* Boyut ve tipografi */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 380px;
+  font: 14px/1.45 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+/* --------- Tema Değişkenleri --------- */
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --elev: #f7f8fa;
+  --fg: #0f172a;              /* slate-900 */
+  --fg-2: #334155;            /* slate-700 */
+  --muted: #64748b;           /* slate-500 */
+  --border: #e5e7eb;          /* gray-200 */
+  --border-strong: #d1d5db;   /* gray-300 */
+  --accent: #2563eb;          /* blue-600 */
+  --accent-weak: #eaf1ff;
+  --danger: #dc2626;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --shadow-1: 0 1px 2px rgba(16,24,40,.05);
+  --shadow-2: 0 6px 16px rgba(16,24,40,.06);
+
+  --gutter-x: 12px; /* liste sağ/sol iç boşluk */
+  --stripe: 2px;    /* sol vurgu şeridi */
+}
+
+html[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #0e1626;
+  --elev: #0b1220;
+  --fg: #e6edf7;
+  --fg-2: #c7d2fe;
+  --muted: #9aa6c7;
+  --border: #1c263b;
+  --border-strong: #283552;
+  --accent: #4fa3ff;
+  --accent-weak: #0f1c33;
+  --danger: #ff5c5c;
+  --shadow-1: 0 1px 2px rgba(0,0,0,.25);
+  --shadow-2: 0 8px 18px rgba(0,0,0,.25);
+}
+
+/* Arkaplan */
+body {
+  background: var(--elev);
+  color: var(--fg);
+  padding: 16px;
+}
+
+/* Başlık */
+h2 {
+  margin: 0 0 10px;
+  font-size: 16px; font-weight: 600;
+  color: var(--fg-2);
+}
+
+/* ---------------- Top Bar ---------------- */
+#topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px;
+  box-shadow: var(--shadow-1);
+}
+
+/* Tabs */
+#tabs { display: flex; gap: 6px; }
+#tabs button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--fg-2);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+#tabs button:hover { background: var(--accent-weak); border-color: var(--border-strong); }
+#tabs button.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-weak);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+/* Actions */
+#actions { display: flex; align-items: center; gap: 8px; }
+.icon-btn {
+  width: 32px; height: 32px; display: grid; place-items: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--fg-2);
+  cursor: pointer;
+  box-shadow: var(--shadow-1);
+  transition: background .15s ease, border-color .15s ease, transform .06s ease;
+}
+.icon-btn:hover { background: var(--accent-weak); border-color: var(--border-strong); }
+.icon-btn:active { transform: translateY(0.5px); }
+.icon-btn.danger { color: var(--danger); }
+
+/* Toggle Switch */
+.switch {
+  position: relative; width: 46px; height: 26px; display: inline-block;
+}
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+  position: absolute; cursor: pointer; inset: 0;
+  background: var(--border);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  transition: background .2s ease;
+}
+.slider::before {
+  content: ""; position: absolute; height: 20px; width: 20px; left: 3px; top: 50%;
+  transform: translateY(-50%);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 50%; transition: transform .2s ease;
+  box-shadow: var(--shadow-1);
+}
+.switch input:checked + .slider {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.switch input:checked + .slider::before { transform: translate(20px, -50%); }
+
+/* ---------------- Liste / Kartlar ---------------- */
+.list {
+  list-style: none; margin: 0; padding: 12px var(--gutter-x) 0;
+  display: grid; gap: 10px; max-height: 420px; overflow: auto;
+}
+.list::-webkit-scrollbar { width: 10px; }
+.list::-webkit-scrollbar-thumb {
+  background: var(--border-strong); border-radius: 8px;
+  border: 2px solid transparent; background-clip: padding-box;
+}
+.list li {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  color: var(--fg);
+  box-shadow: var(--shadow-1);
+  transition: border-color .15s ease, background .15s ease, transform .06s ease;
+}
+.list li:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+.list li::before {
+  content: ""; position: absolute; left: calc(-1 * var(--stripe)); top: 0; bottom: 0;
+  width: var(--stripe); border-radius: var(--radius-md) 0 0 var(--radius-md);
+  background: var(--accent); opacity: .9;
+}
