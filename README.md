@@ -1,16 +1,16 @@
 # ⚡ ZINK — EN ⇄ TR Çeviri Eklentisi
 
-ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini anında yapmanı sağlayan modern, şık ve kullanışlı bir Google Chrome eklentisidir.  
-Siber güvenlik çalışmaları, yabancı kaynaklı dökümanlar, teknik makaleler veya günlük kullanım için idealdir.  
+ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hızlı ve kolay bir şekilde yapmanı sağlayan modern, şık ve kullanışlı bir Google Chrome eklentisidir.  
+Özellikle yabancı kaynaklı dökümanlar, teknik makaleler ve günlük kelime öğrenme sürecinde büyük kolaylık sağlar.  
 
 ---
 
 ## 🚀 Özellikler
 
-- 🌐 **Anlık Çeviri:** Seçtiğin İngilizce kelimenin Türkçe karşılığını anında gösterir.  
-- ⭐ **Favoriler:** Beğendiğin çevirileri tek tıkla kaydedebilir, sonra tekrar görüntüleyebilirsin.  
-- 💾 **CSV Olarak Kaydet:** Gün sonunda tüm çevirdiğin kelimeleri `.csv` formatında indirebilirsin.  
-- 🎨 **Şık Arayüz:** Koyu tema (dark mode) desteği ve modern tasarım.  
+- 🌐 **Anlık Çeviri:** Girilen İngilizce kelimenin Türkçe karşılığını anında gösterir.  
+- ⭐ **Favoriler:** Beğendiğin çevirileri tek tıkla kaydet, istediğin zaman görüntüle.  
+- 💾 **TXT Olarak Kaydet:** Gün sonunda tüm çevirdiğin kelimeleri `.txt` formatında tek tıkla indirebilirsin.  
+- 🎨 **Modern Arayüz:** Koyu tema (dark mode) ve sade, kullanışlı tasarım.  
 - 🔊 **Telaffuz Desteği:** İngilizce kelimelerin telaffuzunu dinleyebilme özelliği.  
 
 ---
