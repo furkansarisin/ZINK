@@ -43,10 +43,11 @@ ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hız
 ## 📷 Ekran Görüntüleri
 
 ### Ana Arayüz
-![Ana Arayüz](screenshots/main.png)
-
-### Çeviri Balonu
-![Çeviri Balonu](screenshots/tooltip.png)
+![Ana Arayüz](images/1.png)
+### Kelime Çevirisi
+![Kelime Çevirisi](images/2.png)
+### Kelime Çevirisi
+![Kelime Çevirisi](images/3.png)
 
 ---
 
