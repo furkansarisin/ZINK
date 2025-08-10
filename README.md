@@ -1,25 +1,25 @@
-⚡ ZINK — EN ⇄ TR Çeviri Eklentisi
-ZINK, tarayıcı üzerinde İngilizce ⇄ Türkçe kelime çevirilerini hızlı ve kolay bir şekilde yapmanı sağlayan modern, şık ve kullanışlı bir Google Chrome eklentisidir.
-Özellikle yabancı kaynaklı dökümanlar, teknik makaleler ve günlük kelime öğrenme sürecinde büyük kolaylık sağlar.
+# ⚡ ZINK — EN ⇄ TR Çeviri Eklentisi
 
-🚀 Özellikler
-🌐 Anlık Çeviri: Girilen İngilizce kelimenin Türkçe karşılığını anında gösterir.
+ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hızlı ve kolay bir şekilde yapmanı sağlayan modern, şık ve kullanışlı bir Google Chrome eklentisidir.  
+Özellikle yabancı kaynaklı dökümanlar, teknik makaleler ve günlük kelime öğrenme sürecinde büyük kolaylık sağlar.  
 
-⭐ Favoriler: Beğendiğin çevirileri tek tıkla kaydet, istediğin zaman görüntüle.
+---
 
-💾 TXT Olarak Kaydet: Gün sonunda tüm çevirdiğin kelimeleri .txt formatında tek tıkla indirebilirsin.
+## 🚀 Özellikler
 
-🎨 Modern Arayüz: Koyu tema (dark mode) ve sade, kullanışlı tasarım.
+- 🌐 **Anlık Çeviri:** Girilen İngilizce kelimenin Türkçe karşılığını anında gösterir.  
+- ⭐ **Favoriler:** Beğendiğin çevirileri tek tıkla kaydet, istediğin zaman görüntüle.  
+- 💾 **TXT Olarak Kaydet:** Gün sonunda tüm çevirdiğin kelimeleri `.txt` formatında tek tıkla indirebilirsin.  
+- 🎨 **Modern Arayüz:** Koyu tema (dark mode) ve sade, kullanışlı tasarım.  
+- 🔊 **Telaffuz Desteği:** İngilizce kelimelerin telaffuzunu dinleyebilme özelliği.  
 
-🔊 Telaffuz Desteği: İngilizce kelimelerin telaffuzunu dinleyebilme özelliği.
+---
 
-📦 Kurulum
-Projeyi indir veya kopyala:
+## 📦 Kurulum
 
-bash
-Kopyala
-Düzenle
-git clone https://github.com/furkansarisin/ZINK.git
+1. **Projeyi indir veya kopyala:**  
+   ```bash
+   git clone https://github.com/furkansarisin/ZINK.git
 veya ZIP olarak indirip çıkar.
 
 Chrome’a yükle:
