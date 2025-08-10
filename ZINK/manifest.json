@@ -8,10 +8,24 @@
     "<all_urls>",
     "https://api.mymemory.translated.net/*"
   ],
+
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
   "action": {
     "default_popup": "popup.html",
-    "default_icon": { "16": "icon.png", "48": "icon.png", "128": "icon.png" }
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
+
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
