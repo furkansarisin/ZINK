@@ -1,21 +1,21 @@
-# ⚡ ZINK — EN ⇄ TR Çeviri Eklentisi
+#  ZINK — EN ⇄ TR Çeviri Eklentisi
 
 ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hızlı ve kolay bir şekilde yapmanı sağlayan modern, şık ve kullanışlı bir Google Chrome eklentisidir.  
 Özellikle yabancı kaynaklı dökümanlar, teknik makaleler ve günlük kelime öğrenme sürecinde büyük kolaylık sağlar.  
 
 ---
 
-## 🚀 Özellikler
+##  Özellikler
 
-- 🌐 **Anlık Çeviri:** Girilen İngilizce kelimenin Türkçe karşılığını anında gösterir.  
-- ⭐ **Favoriler:** Beğendiğin çevirileri tek tıkla kaydet, istediğin zaman görüntüle.  
-- 💾 **TXT Olarak Kaydet:** Gün sonunda tüm çevirdiğin kelimeleri `.txt` formatında tek tıkla indirebilirsin.  
-- 🎨 **Modern Arayüz:** Koyu tema (dark mode) ve sade, kullanışlı tasarım.  
-- 🔊 **Telaffuz Desteği:** İngilizce kelimelerin telaffuzunu dinleyebilme özelliği.  
+ **Anlık Çeviri:** Girilen İngilizce kelimenin Türkçe karşılığını anında gösterir.  
+   **Favoriler:** Beğendiğin çevirileri tek tıkla kaydet, istediğin zaman görüntüle.  
+   **TXT Olarak Kaydet:** Gün sonunda tüm çevirdiğin kelimeleri `.txt` formatında tek tıkla indirebilirsin.  
+   **Modern Arayüz:** Koyu tema (dark mode) ve sade, kullanışlı tasarım.  
+   **Telaffuz Desteği:** İngilizce kelimelerin telaffuzunu dinleyebilme özelliği.  
 
 ---
 
-## 📦 Kurulum
+## Kurulum
 
 1. **Projeyi indir veya kopyala:**  
    ```bash
@@ -32,13 +32,7 @@ ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hız
 
 ---
 
-## 🖥 Kullanım
 
-1. Eklentiyi aç ve çevirmek istediğin İngilizce kelimeyi gir.  
-2. Sonuç anında ekranda belirecek.  
-3. Favorilere ekleyebilir veya günlük çeviri listenizi `.txt` olarak indirebilirsiniz.  
-
----
 
 ## 📷 Ekran Görüntüleri
 
@@ -49,13 +43,4 @@ ZINK, tarayıcı üzerinde **İngilizce ⇄ Türkçe** kelime çevirilerini hız
 ### Kelime Çevirisi
 ![Kelime Çevirisi](images/3.png)
 
----
 
-## 📜 Lisans
-
-Bu proje **MIT Lisansı** ile lisanslanmıştır.  
-Serbestçe kullanılabilir, geliştirilebilir ve paylaşılabilir.  
-
----
-
-💡 **Not:** ZINK, sayfaları otomatik çevirmek yerine odaklı kelime çevirisi yaparak öğrenme sürecinizi hızlandırmayı amaçlar.
